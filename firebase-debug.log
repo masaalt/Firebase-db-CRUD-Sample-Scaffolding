@@ -1,0 +1,40 @@
+[debug] [2021-10-24T19:55:59.012Z] ----------------------------------------------------------------------
+[debug] [2021-10-24T19:55:59.013Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lotus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-10-24T19:55:59.014Z] CLI Version:   9.21.0
+[debug] [2021-10-24T19:55:59.014Z] Platform:      win32
+[debug] [2021-10-24T19:55:59.014Z] Node Version:  v12.13.0
+[debug] [2021-10-24T19:55:59.014Z] Time:          Sun Oct 24 2021 23:25:59 GMT+0330 (Iran Standard Time)
+[debug] [2021-10-24T19:55:59.014Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-24T19:55:59.048Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-24T19:55:59.048Z] > authorizing via signed-in user (mh.rezaee2013@gmail.com)
+[debug] [2021-10-24T19:55:59.048Z] [iam] checking project admin-golnush for permissions ["firebase.projects.get"]
+[debug] [2021-10-24T19:55:59.049Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-24T19:55:59.049Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-24T19:55:59.739Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Sun, 24 Oct 2021 19:56:00 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-24T19:55:59.810Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/admin-golnush:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-10-24T19:56:00.581Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 24 Oct 2021 19:56:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=123","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-24T19:56:00.582Z] > refreshing access token with scopes: []
+[debug] [2021-10-24T19:56:00.582Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-24T19:56:01.089Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 24 Oct 2021 19:56:01 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-24T19:56:01.189Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush [none]
+[debug] [2021-10-24T19:56:02.066Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush 200
+[debug] [2021-10-24T19:56:02.066Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush {"projectId":"admin-golnush","projectNumber":"692825413772","displayName":"admin-golnush","name":"projects/admin-golnush","resources":{"hostingSite":"admin-golnush","realtimeDatabaseInstance":"admin-golnush"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\PC_New\D\Busns\SlfWrk\golnush-PWA\admin-golnush.web.app - V3'...
+[info] 
+[debug] [2021-10-24T19:56:02.085Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/admin-golnush/sites 
+[debug] [2021-10-24T19:56:03.373Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/admin-golnush/sites 200
+[debug] [2021-10-24T19:56:03.373Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/admin-golnush/sites {"sites":[{"name":"projects/692825413772/sites/admin-golnush","defaultUrl":"https://admin-golnush.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-10-24T19:56:03.373Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush/webApps/-/config [none]
+[debug] [2021-10-24T19:56:04.325Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush/webApps/-/config 200
+[debug] [2021-10-24T19:56:04.325Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/admin-golnush/webApps/-/config {"projectId":"admin-golnush","databaseURL":"https://admin-golnush.firebaseio.com","storageBucket":"admin-golnush.appspot.com","apiKey":"AIzaSyBH6R5WAAcBSsSZCpzgUZTnRxAfH83nP28","authDomain":"admin-golnush.firebaseapp.com","messagingSenderId":"692825413772"}
+[info] i  hosting: Serving hosting files from: / {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m/\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2021:19:56:14 +0000] "GET / HTTP/1.1" 200 8819 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2021:19:56:14 +0000] \"GET / HTTP/1.1\" 200 8819 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2021:19:56:15 +0000] "GET /js/firebase-credentials.js HTTP/1.1" 200 291 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2021:19:56:15 +0000] \"GET /js/firebase-credentials.js HTTP/1.1\" 200 291 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2021:19:56:15 +0000] "GET /js/app.js HTTP/1.1" 200 7989 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2021:19:56:15 +0000] \"GET /js/app.js HTTP/1.1\" 200 7989 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [24/Oct/2021:19:56:17 +0000] "GET /favicon.ico HTTP/1.1" 200 8819 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Oct/2021:19:56:17 +0000] \"GET /favicon.ico HTTP/1.1\" 200 8819 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36\""}}
